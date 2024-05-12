@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-family: Ubuntu sans , sans-serif;
+    color:#fafafa;
+    min-height: 100dvh;
+}
+    
+
+header{background-color: brown;
+    font-size: 50px;
+    font-family: 'Oswald' , sans-serif;
+    min-height: 30px;
+    
+}
+
+main{
+    background-color: cadetblue;
+    height: 100dvh;
+    
+}
+
+footer{
+    background-color: burlywood;
+}
