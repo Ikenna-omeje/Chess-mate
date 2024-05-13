@@ -1,3 +1,11 @@
+https://www.healthline.com/health/benefits-of-playing-chess#develops-perspective
+https://battleofchess.com/benefits-of-playing-chess/
+
+
+
+
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome,

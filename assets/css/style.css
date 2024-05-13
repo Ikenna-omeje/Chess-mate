@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
  
+
+/* ground norm for the space */
 * {
     margin: 0;
     padding: 0;
@@ -21,11 +23,8 @@ body{
     text-decoration: none;
 
 }
-
     
 /* header */
-
-
 
 #home{
     position:relative;
