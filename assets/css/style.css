@@ -16,7 +16,11 @@ body{
     padding: 0 2px;
     height: 100dvh;
 }
-#home a {color:white;}
+#home a {
+    color:white;
+    text-decoration: none;
+
+}
 
     
 /* header */
@@ -35,29 +39,28 @@ body{
     
 }
 
-
-
 #logo { 
     
     height: 10%;
     width: 100vw;
     margin-bottom: 0px;
-    margin-top: 10;
+    margin-top: 0;
     text-align: center;
-    font-size: 2em;
-    
+    font-size: 2em;  
    
 }
 
-.menu {
-    font-size: 1em;
+.menu > li {
+    font-size: 80%;
     margin-top: 0;
     margin-bottom: 0;
-    color:beige; 
-    height: 30%;     
+    height: 30%; 
+    list-style-type: none;
+    background-color:burlywood;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: right;   
 }  
-
-
 
 
 
