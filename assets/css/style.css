@@ -13,10 +13,10 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'oswald' , sans-serif;
-    min-height: 100vh;
+    
     margin: 0;
     padding: 0 2px;
-    height: 100dvh;
+    height: 100hvh;
 }
 #home a {
     color:white;
@@ -61,14 +61,29 @@ body{
     justify-content: right;   
 }  
 
+#playing {background: url(../image/pexels-anastasia-shuraeva-8466022.jpg) no-repeat center/cover;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+    position:relative;
+}
 
+#two-playing {
+    color: #fafafa;
+    padding-left: 70px;
+    font-size: 100%;
+    position: absolute;
+    padding-top: 220px;
+}
 
 main{
-    background-color: cadetblue;
+   
     height: 100dvh;
-    flex:1 0 auto;  
+    flex:1 0 auto;
+    display: contents;  
 }
 
 footer{
     background-color: burlywood;
+    margin-bottom: 0;
 }
