@@ -6,28 +6,65 @@
     box-sizing: border-box;
 }
 
-
+/* general Styles */
 body{
     display: flex;
-    padding: 10px;
     flex-direction: column;
-    font-family: Ubuntu sans , sans-serif;
-    color:#fafafa;
-    min-height: 100dvh;
+    font-family: 'oswald' , sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 2px;
+    height: 100dvh;
 }
-    
+#home a {color:white;}
 
-header{background-color: brown;
-    font-size: 50px;
-    font-family: 'Oswald' , sans-serif;
-    min-height: 30px;
+    
+/* header */
+
+
+
+#home{
+    position:relative;
+    font-family: 'Ubuntu sans' sans-serif;
+    text-align: right;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: url(../image/pexels-syed-hasan-mehdi-270838-839428.jpg) no-repeat center/cover;
+    box-shadow: 0 2px 2px #3a3a3a;
     
 }
+
+
+
+#logo { 
+    
+    height: 10%;
+    width: 100vw;
+    margin-bottom: 0px;
+    margin-top: 10;
+    text-align: center;
+    font-size: 2em;
+    
+   
+}
+
+.menu {
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:beige; 
+    height: 30%;     
+}  
+
+
+
+
 
 main{
     background-color: cadetblue;
     height: 100dvh;
-    
+    flex:1 0 auto;  
 }
 
 footer{
