@@ -16,7 +16,7 @@ body{
     
     margin: 0;
     padding: 0 2px;
-    height: 100hvh;
+    height: 100dvh;
 }
 #home a {
     color:white;
@@ -28,10 +28,9 @@ body{
 
 #home{
     position:relative;
-    font-family: 'Ubuntu sans' sans-serif;
+    font-family: 'oswald' , sans-serif;
     text-align: right;
-    margin-top: 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 2px;
     background: url(../image/pexels-syed-hasan-mehdi-270838-839428.jpg) no-repeat center/cover;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -39,51 +38,82 @@ body{
 }
 
 #logo { 
-    
-    height: 10%;
+    min-height: 40%;
     width: 100vw;
-    margin-bottom: 0px;
-    margin-top: 0;
+    padding-top: 10px;
+    padding-top: 10px;
     text-align: center;
     font-size: 2em;  
-   
+   text-transform: uppercase;
+   text-decoration: wavy;
+
 }
 
-.menu > li {
-    font-size: 80%;
-    margin-top: 0;
-    margin-bottom: 0;
-    height: 30%; 
+.menu {
+    padding: 10px 15px;
+    gap: 15px; 
     list-style-type: none;
-    background-color:burlywood;
-    text-transform: lowercase;
+    background-color:#3a3a3a;
     display: flex;
-    justify-content: right;   
+    justify-content: space-evenly;
+
 }  
+main
 
 #playing {background: url(../image/pexels-anastasia-shuraeva-8466022.jpg) no-repeat center/cover;
     height: 300px;
     width: 100%;
-    margin-top: 0;
     position:relative;
 }
 
 #two-playing {
     color: #fafafa;
-    padding-left: 70px;
+    padding-bottom: 20px;
     font-size: 100%;
-    position: absolute;
+    position: relative;
     padding-top: 220px;
+    padding-left: 10px;
+    background-color: rgba(214, 159, 31, 0.48);
+    width: 70%;
 }
 
-main{
-   
+#reason {
+    font-weight: normal;
     height: 100dvh;
     flex:1 0 auto;
-    display: contents;  
+    display: contents;
+    font-size: 60%;
+    padding-left: 10px; 
+    
 }
+ /* footer detail */
+
 
 footer{
-    background-color: burlywood;
-    margin-bottom: 0;
+    background-color:#3a3a3a;
+    color: #fafafa;
 }
+
+ #contact-text{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: normal;
+ }
+    
+ 
+ #s-network {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icon {
+    color: #fafafa;
+    padding: 5px;
+    font-size: large;
+}
+
+
+
+
