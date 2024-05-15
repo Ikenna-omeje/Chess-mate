@@ -28,36 +28,67 @@
     </header>
 
     <main>
-       <table>
-        <tr>
+        <div id="activity">
+        <h2>Activity</h2>    
+        <p>Thinking about joining a club? thinking about playing a game of chess as well as building strong connections with like-minded peolple? 
+           join us in Chess-mate on the days and levels avialable below.
+        </p>
+        </div>
+
+        <table class="table">
+        
+        <tr id="head">
             <th>Days</th>
             <th>Time</th>
             <th>Beginners</th>
             <th>Advance</th>
         </tr>
         <tr>
-            <td>wed</td>
-            <td>5pm-8pm</td>
+            <td>Wed</td>
+            <td>5pm</td>
             <td>Knights</td>
             <td>kings</td>
         </tr>
-        <tr>
+        <tr id="data"">
             <td>Friday</td>
-            <td>4pm-8pm</td>
-            <td>pawns</td>
-            <td>Qweens</td>
+            <td>4pm</td>
+            <td>Pawns</td>
+            <td>Queens</td>
         </tr>
         <tr>
             <td>Saturday</td>
-            <td>11am-8pm</td>
-            <td>pawns/knights</td>
+            <td>11am</td>
+            <td>Pawns/knights</td>
             <td>Queens/kings</td>
         </tr>
 
        </table>
         
-        <section>
-            <div id="">
+        <section id="signup">
+            <form id="form-signup" method="POST" action="https://formdump.codeinstitute.net">
+                
+                <h3>please sign-up here</h3>
+
+                <label for="username">Username</label>
+                <input type="text" name="user_name" id="username" class="check" required>
+
+                <br>
+
+                <label for="password">Password</label>
+                <input type="text" name="Pass_word" id="password" class="check" required>
+
+                <br>
+
+                <label for="email">Email Address</label>
+                <input type="email" name="email_address" id="email" class="check" required checked>
+
+                <br>
+
+                <button type="submit" class="button">Submit</button>
+
+
+
+            </form>
                 
                 
             </div>

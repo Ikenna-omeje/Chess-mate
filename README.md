@@ -8,7 +8,33 @@ https://battleofchess.com/benefits-of-playing-chess/
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+#Chess-mate Club
+
+chess-made club website is a page designed to invite lovers of chess both young and old, learners and beginners as well as advanced players to the benefits of playing chess as a communion
+vistors of this page would be educated to the benefits of communual chess playing and directed to a venue and time for engagement.
+
+
+
+
+
+
+
+##Feature
+
+###Navigation
+*
+
+
+
+
+
+
+
+
+
+
+
+
 
 This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
