@@ -13,13 +13,11 @@ vistors of this page would be educated to the benefits of communual chess playin
 * The navigation feature at the fist line of the page shows the the name of the club,. The image at the background displays act of playing chess. The second line navigation leads to the other pages in the website namely;
 
 + Home page.
-+ Gallery page.
++ Activity page.
 + Sign-up page.
  
 The font-color is designed to contrast with the background of the page for easy visibility. Clicking any of the titles above leads to a different kind on information.
 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -31,12 +29,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![navigation](/assets/image/Screenshot%202024-05-16%20at%2009.03.38.png)
 
-When you start typing the /assets/image path, gitpod should give you the possible options in an autocomplete box ( just makes it easier than typing it all in! )
+
 
 
 - __The landing page image__
 
-  - The landing includes an image to allow the user get the feel of what chess looks like. 
+  - The landing page image invites the user into the world of chess, embrasing them in the aura of chess.
   - This section introduces the user to chess-mate with an eye catching caption to grab their attention
 
 ![landing_page](/assets/image/Screenshot%202024-05-17%20at%2012.39.24.png)
@@ -44,14 +42,14 @@ When you start typing the /assets/image path, gitpod should give you the possibl
 
 - __why chess-mate Section__
 
-  - The why chess-mate section will allow the user to see the benefits of joining the chess-mate meetups, as well as the benefits of playing chess. 
+  - The why chess-mate section allows the user see the benefits of joining the chess-mate meetups, as well as the offering the leisure and joy  of playing chess. 
   - This user will see the value and benefits of signing up to chess-mate. 
 
 ![why_chess-mate](/assets/image/Screenshot%202024-05-17%20at%2012.49.20.png)
 
 - __Table section__
 
-  - This section will allow the user to see exactly when the club is open for different categories of players. the schedule is visually simplified by a table that contain days and times for different levels.
+  - This section will allow the user to see exactly when the club is open for different categories of players. The schedule is visually simplified by a table that contain days and times for different levels.
   - This section will be updated from time to time to accomodate circumstances and keep the user up to date. 
 
 ![Table](/assets/image/Screenshot%202024-05-17%20at%2012.53.09.png)
@@ -80,8 +78,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 #### Play online
 
-- online gaming gives every body the ability to take a few minutes a day to play thier favorite game; The next feature would be able to make that a possibilty.
--this feature would grant acccesibility to anyone around the world and time zone to engage chessnas will and therefore not be restricyted by geography or time.
+- online gaming gives every body the ability to take a few minutes a day to play their favorite game; The next feature would be able to make that a possibilty.
+-this feature would grant acccesibility to anyone around the world and time zone to engage chess at will and therefore not be restricted by geography or time.
 
 
 
