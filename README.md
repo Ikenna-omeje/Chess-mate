@@ -1,5 +1,8 @@
 https://www.healthline.com/health/benefits-of-playing-chess#develops-perspective
 https://battleofchess.com/benefits-of-playing-chess/
+https://icons8.com/icons/set/chess
+https://fontawesome.com/search?q=inst&o=r&m=free  
+https://www.pexels.com/photo/black-chess-pieces-2695392/
 
 
 
@@ -8,10 +11,7 @@ https://battleofchess.com/benefits-of-playing-chess/
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-#Chess-mate Club
-
-chess-made club website is a page designed to invite lovers of chess both young and old, learners and beginners as well as advanced players to the benefits of playing chess as a communion
-vistors of this page would be educated to the benefits of communual chess playing and directed to a venue and time for engagement.
+# Chess-mate Club
 
 
 
@@ -19,17 +19,51 @@ vistors of this page would be educated to the benefits of communual chess playin
 
 
 
-##Feature
-
-###Navigation
-*
 
 
+## Feature
+
+(Screenshot 2024-05-16 at 09.03.38.png)
+
+
+## why chess-mate
++This sections highlights the importance and benefit of playing chess and how it affects different aspect of our lives. The h2 element describes points to the most valuable attributes the website wants to project.
+
+
+##Contact section.
++ The contact section guides the users the to the clubs contact details that is; the street address, phone numbers and email address.
++ The contact section equally includes links (icons) to our social media pages X formally Twitter, Instagram and Youtube media pages.
 
 
 
 
 
+
+
+
+
+*People and pieces
+This section tends to give the feel and emotion from the chess club, it gives prospective chess players the ability to connect with the aim of the website.this section contain a gallery showing pictures of chess boards chess pieces and peolple of all ages playing chess.
+
+
+The activity section invites prospective members to the schedule of the club and an oppurtunity to sign up through a form with a username, password and an email address.
+
+
+
+
+
+
+
+
+
+
+### Testing
++ I can comfirm that i have tested the wedsite in different browsers: Chrome, Safari and firefox.
++ I can confirm that the project is responsive and looks good and function on all standard screen sizes using device toolbar.
++ i can comfirm that the navigations, header , contact , texts and are all readable, visually appealing and easily understandable.
++ i can comfirm that the form entries are responsive, the email field can oly accept email adresses with the required function.
+
+###Bugs
 
 
 
