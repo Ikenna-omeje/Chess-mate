@@ -3,7 +3,7 @@
 chess-made club website is a page designed to invite lovers of chess both young and old, learners and beginners as well as advanced players to the benefits of playing chess as a communion
 vistors of this page would be educated to the benefits of communual chess playing and directed to a venue and time for engagement.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
 
 ## Features 
 
@@ -23,53 +23,52 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Activity page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+- Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Activity page and is identical in each page to allow for easy navigation.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 
-![Club Ethos](assets/image/Screenshot 2024-05-16 at 09.03.38.png)
+![navigation](/assets/image/Screenshot%202024-05-16%20at%2009.03.38.png)
+
+When you start typing the /assets/image path, gitpod should give you the possible options in an autocomplete box ( just makes it easier than typing it all in! )
 
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes an image to allow the user get the feel of what chess looks like. 
+  - This section introduces the user to chess-mate with an eye catching caption to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![landing_page](/assets/image/Screenshot%202024-05-17%20at%2012.39.24.png)
 
-- __Club Ethos Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+- __why chess-mate Section__
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+  - The why chess-mate section will allow the user to see the benefits of joining the chess-mate meetups, as well as the benefits of playing chess. 
+  - This user will see the value and benefits of signing up to chess-mate. 
 
-- __Meetup Times section__
+![why_chess-mate](/assets/image/Screenshot%202024-05-17%20at%2012.49.20.png)
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+- __Table section__
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - This section will allow the user to see exactly when the club is open for different categories of players. the schedule is visually simplified by a table that contain days and times for different levels.
+  - This section will be updated from time to time to accomodate circumstances and keep the user up to date. 
 
-- __The Footer__ 
+![Table](/assets/image/Screenshot%202024-05-17%20at%2012.53.09.png)
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+- __The Footer/contact section__ 
+
+  - The contact section guides the users the to the clubs contact details that is; the street address, phone numbers and email address. The links will open to a new tab to allow easy navigation for the user. 
+  - The contact section equally includes links (icons) to our social media pages X formally Twitter, Instagram and Youtube media pages.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](/assets/image/Screenshot%202024-05-17%20at%2012.55.55.png)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- __Activity Page__
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+  - This page will allow the user to get signed up to chess-mate club to start or continue playing chess with a comuinity of shared interest.
+  - The activity section invites prospective members to the schedule of the club and an oppurtunity to sign up through a form with a username, password and an email address.
 
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](/assets/image/Screenshot%202024-05-17%20at%2013.30.19.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -77,9 +76,22 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Features Left to Implement
 
-- Another feature idea
+#### Play online
+
+- online gaming gives every body the ability to take a few minutes a day to play thier favorite game; The next feature would be able to make that a possibilty.
+-this feature would grant acccesibility to anyone around the world and time zone to engage chessnas will and therefore not be restricyted by geography or time.
+
+
 
 ## Testing 
++ I can comfirm that i have tested the wedsite in different browsers: Chrome, Safari and firefox.
++ I can confirm that the project is responsive and looks good and function on all standard screen sizes using device toolbar.
++ i can comfirm that the navigations, header , contact , texts and are all readable, visually appealing and easily understandable.
++ i can comfirm that the form entries are responsive, the email field can only accept email adresses with the required @ function.
+
+-i found it difficult to create an image layout for my gallery section.
+
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -93,9 +105,20 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator]
+  index.html_home
+  ![index.html](/assets/image/Screenshot%202024-05-17%20at%2013.50.58.png)
+ - activity.html_activity
+  ![activity.html](/assets/image/Screenshot%202024-05-17%20at%2014.02.14.png)
+ - signup.html_signup
+ ![signup](/assets/image/Screenshot%202024-05-17%20at%2014.25.39.png)
+
+
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator]
+  -style.css
+  ![style.css](/assets/image/Screenshot%202024-05-17%20at%2015.12.07.png)
 
 ### Unfixed Bugs
 

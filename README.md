@@ -5,7 +5,7 @@ https://fontawesome.com/search?q=inst&o=r&m=free
 https://www.pexels.com/photo/black-chess-pieces-2695392/
 
 
-
+![screenshot1](/assets/image/Screenshot%202024-05-16%20at%2009.03.38.png)
 
 
 
@@ -13,7 +13,17 @@ https://www.pexels.com/photo/black-chess-pieces-2695392/
 
 # Chess-mate Club
 
-
+<!div id="gallery">
+            <!div id="people">
+                <img class="pieces-img" src=" assets/image/pexels-cottonbro-8427603.webp" alt="three kids playing">
+                <img class="pieces-img" src="assets/image/pexels-syed-hasan-mehdi-270838-839428.jpg" alt="chess pieces">
+                <img class="pieces-img" src="assets/image/pexels-dariabuntaria-2422383.webp" alt="chess pieces">
+                <img class="pieces-img" src="assets/image/pexels-felixmittermeier-957312-_1_.webp" alt="time piece">
+                <img class="pieces-img" src="assets/image/pexels-pixabay-139392.webp" alt="kids playing">
+                <img class="pieces-img" src=" assets/image/pexels-skitterphoto-1083355.webp" alt="chess pieces">
+                <img class="pieces-img" src="assets/image/pexels-nicolas-langellotti-28179636-7179250.jpg" alt="chess pieces">
+            </div>
+        </div>
 
 
 
@@ -57,11 +67,7 @@ The activity section invites prospective members to the schedule of the club and
 
 
 
-### Testing
-+ I can comfirm that i have tested the wedsite in different browsers: Chrome, Safari and firefox.
-+ I can confirm that the project is responsive and looks good and function on all standard screen sizes using device toolbar.
-+ i can comfirm that the navigations, header , contact , texts and are all readable, visually appealing and easily understandable.
-+ i can comfirm that the form entries are responsive, the email field can oly accept email adresses with the required function.
+
 
 ###Bugs
 

@@ -3,108 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="describtion" content="chess, mental, develöpmen, focus">
+    <meta name="describtion" content="chess, mental, development, focus">
     <title>Chess-mate</title>
     <link rel="icon" type="image/png" href="assets/icons8-knight-48.png">
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 <body>
     <header>
         <section id="home">   
         <a href="index.html">
             <h1 id="logo">Chess-mate club</h1>
-        </a>
-        
+        </a>        
             <nav>
                 <ul class="menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="m&p.html">Gallery</a></li>
-                    <li><a href="signup.html" class="active">Activity</a></li>
+                    <li><a href="m&p.html">Activity</a></li>
+                    <li><a href="signup.html" class="active">Signup</a></li>
                 </ul>
             </nav>
-        </section>    
-        
+        </section>            
     </header>
-
-    <main>
-        <div id="activity">
-        <h2>Activity</h2>    
-        <p>Thinking about joining a club? thinking about playing a game of chess as well as building strong connections with like-minded peolple? 
-           join us in Chess-mate on the days and levels avialable below.
-        </p>
-        </div>
-
-        <table class="table">
-        
-        <tr id="head">
-            <th>Days</th>
-            <th>Time</th>
-            <th>Beginners</th>
-            <th>Advance</th>
-        </tr>
-        <tr>
-            <td>Wed</td>
-            <td>5pm</td>
-            <td>Knights</td>
-            <td>kings</td>
-        </tr>
-        <tr id="data"">
-            <td>Friday</td>
-            <td>4pm</td>
-            <td>Pawns</td>
-            <td>Queens</td>
-        </tr>
-        <tr>
-            <td>Saturday</td>
-            <td>11am</td>
-            <td>Pawns/knights</td>
-            <td>Queens/kings</td>
-        </tr>
-
-       </table>
-        
-        <section id="signup">
-            <form id="form-signup" method="POST" action="https://formdump.codeinstitute.net">
-                
+    <main>         
+       <section id="signup">
+            <form id="form-signup" method="POST" action="https://formdump.codeinstitute.net">            
                 <h3>Please sign-up here</h3>
-
                 <label for="username">Username</label>
-                <input type="text" name="user_name" id="username" class="check" required>
-
+                <input type="text" name="user_name" id="username" class="check" autocomplete="family-name" required>
                 <br>
-
                 <label for="password">Password</label>
-                <input type="text" name="Pass_word" id="password" class="check" required>
-
+                <input type="text" name="Pass_word" id="password" class="check" autocomplete="off" required>
                 <br>
-
                 <label for="email">Email Address</label>
-                <input type="email" name="email_address" id="email" class="check" required checked>
-
+                <input type="email" name="email_address" id="email" class="check" autocomplete="off" required check>
                 <br>
-
                 <button type="submit" class="button">Submit</button>
-
-
-
-            </form>
-                
-                
-            </div>
+            </form>                
         </section>
-
     </main>
-
-     <footer>
-
+     <footer>       
         <div id="contact-text">
             <h3>Contact</h3>
             <p>Email: Chess-mate@outlook.com</p>
             <p>+46 7364-xxxxxx</p>
             <p>Address: No. 176 Industrial Layout Stockholm, Sweden </p>
         </div>
-
         <div id="s-network">
             <div>
                 <a href="https://www.facebook.com" 
@@ -124,12 +66,9 @@
                 aria-label="visit our x page(new tab)">
                 <i class="icon fa-brands fa-x-twitter"></i></a>
                    
-            </div>    
-            
-        </div>
-        
+            </div>               
+        </div>        
      </footer>
-
      <script src="https://kit.fontawesome.com/cda816696e.js" crossorigin="anonymous"></script>
 </body>
 </html>

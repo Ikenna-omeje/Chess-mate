@@ -55,7 +55,8 @@ body {
 }
 
 /* main */
-main #playing {
+
+#playing {
     background: url(../image/pexels-syed-hasan-mehdi-270838-839428.jpg) no-repeat center/cover;
     height: 300px;
     width: 100%;
@@ -92,7 +93,33 @@ main #playing {
 }
 
 /* fixing gallary pictures */
-#gallery {
+
+#act {
+    background: url(../image/pexels-anastasia-shuraeva-8466022.jpg) no-repeat center/cover;
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+#activity {
+    color: #3a3a3a;
+    padding-bottom: 10px;
+
+    font-size: 150%;
+    position: relative;
+    padding-top: 215px;
+    padding-left: 0px;
+    width: 70%;
+}
+
+#activity * {
+    background-color: rgba(234, 194, 15, 0.7);
+    margin-bottom: 50px;
+
+}
+
+
+/*#gallery {
     display: grid;
 }
 
@@ -113,7 +140,7 @@ main #playing {
     object-fit: cover;
     vertical-align: middle;
     border-radius: 5px;
-}
+}*/
 
 /* sign-up page */
 #activity {
@@ -141,20 +168,23 @@ main #playing {
 #data {
     background-color: rgb(2, 216, 2);
 }
+
 /* signup form  */
 #signup {
-    background: url(../image/pexels-darshan394-2695392.jpg) no-repeat top center/cover;
+    background: url(../image/pexels-felixmittermeier-957312-_1_.webp) no-repeat top center/cover;
     background-size: cover;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     display: flex;
-    color: #3a3a3a;
+    color: rgb(2, 189, 2);
     justify-content: center;
+    
 }
 
 #form-signup {
     margin-bottom: 130px;
     margin-top: 40px;
     padding: 30px;
+    background-color: rgba(234, 194, 15, 0.1);
 }
 
 .check {
@@ -165,6 +195,7 @@ main #playing {
     padding-right: 0;
     width: 100%;
     height: 20px;
+    
 
 }
 
@@ -178,7 +209,7 @@ main #playing {
 footer {
     background-color: #3a3a3a;
     color: #fafafa;
-    margin-top: 0%;
+    margin-top: 10%;
 }
 
 #contact-text {
@@ -198,6 +229,7 @@ footer {
     color: #fafafa;
     padding: 5px;
     font-size: large;
+    margin-bottom: 10px;
 }
 
 /* media screens tablet and larger (576px and higher) */
@@ -209,11 +241,11 @@ footer {
         justify-content: center;
     }
 
-    #people {
+    /*#people {
         column-count: 2;
         column-gap: 0;
         flex: 1 200px
-    }
+    }*/
 
 }
 
@@ -237,7 +269,7 @@ footer {
         column-count: 3;
         column-gap: 0;
         object-fit: contain;
-        /*display: flex;*/
+        display: flex;
 
     }
 
@@ -245,7 +277,7 @@ footer {
 
 /* large screens labtops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
-    #people {
+    people {
         column-count: 3;
     }
 }
