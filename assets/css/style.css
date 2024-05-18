@@ -17,6 +17,7 @@ body {
     min-height: 100px;
 }
 
+/* section for logo and nav */
 #home a {
     color: #fafafa;
     text-decoration: none;
@@ -80,11 +81,11 @@ body {
 #reason {
     font-weight: normal;
     height: 100dvh;
-    flex: 1 0 auto;
+    /*flex: 1 0 auto;*/
     display: contents;
-    font-size: 2em;
+    font-size: 1em;
     padding-left: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -92,8 +93,10 @@ body {
     font-weight: lighter;
 }
 
-/* fixing gallary pictures */
-.activity-page{margin-top: 5px;}
+/* fixing activity page */
+.activity-page {
+    margin-top: 5px;
+}
 
 
 #act {
@@ -104,10 +107,12 @@ body {
     position: relative;
     margin-bottom: 0;
     padding-top: 45px;
-    }
-    #a-text * {padding-top: 15px;
-        padding-left: 15px;
-    }
+}
+
+#a-text * {
+    padding-top: 15px;
+    padding-left: 15px;
+}
 
 #activity {
     color: #3a3a3a;
@@ -125,38 +130,6 @@ body {
 #activity * {
     background-color: rgba(234, 194, 15, 0.7);
     margin-bottom: 50px;
-
-}
-
-
-/*#gallery {
-    display: grid;
-}
-
-#people {
-
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-}
-
-#people>.pieces-img {
-    flex: 1 350px;
-}
-
-.pieces-img {
-    max-width: 100%;
-    min-height: min-content;
-    object-fit: cover;
-    vertical-align: middle;
-    border-radius: 5px;
-}*/
-
-/* sign-up page */
-#activity {
-    margin-top: 125px;
-    padding-left: 15px;
-
 }
 
 /* table style */
@@ -179,8 +152,18 @@ body {
     background-color: rgb(2, 216, 2);
 }
 
+/* sign-up page */
+#activity {
+    margin-top: 125px;
+    padding-left: 15px;
+
+}
+
 /* signup form  */
-#signup-page{margin-top: 95px;}
+#signup-page {
+    margin-top: 95px;
+}
+
 #signup {
     background: url(../image/pexels-felixmittermeier-957312-_1_.webp) no-repeat top center/cover;
     background-size: cover;
@@ -190,7 +173,10 @@ body {
     color: rgb(2, 189, 2);
     justify-content: center;
 }
-.signup-menu{justify-content: space-between;}
+
+.signup-menu {
+    justify-content: space-between;
+}
 
 #form-signup {
     margin-bottom: 130px;
@@ -216,15 +202,17 @@ body {
     border-radius: 2px;
     background-color: rgb(1, 150, 1);
 }
-.main-page{
+
+.main-page {
     margin-bottom: 150px;
 }
+
 /* footer detail */
 footer {
     background-color: #3a3a3a;
     color: #fafafa;
     margin-top: 0;
-    
+
 }
 
 #contact-text {
@@ -245,7 +233,7 @@ footer {
     color: #fafafa;
     padding: 5px;
     font-size: large;
-    
+
 }
 
 /* media screens tablet and larger (576px and higher) */
@@ -261,11 +249,7 @@ footer {
         justify-content: center;
     }
 
-    /*#people {
-        column-count: 2;
-        column-gap: 0;
-        flex: 1 200px
-    }*/
+   
 
 }
 
