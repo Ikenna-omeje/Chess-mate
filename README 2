@@ -108,8 +108,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
-  -style.css
+  - Style.css
   ![style.css](/assets/image/Screenshot%202024-05-17%20at%2015.12.07.png)
+- Accesibilty
+  - I can confirm that the colors and fonts chosen provide an acceptable contrast to the background making it readable as the lighthouse dev-tool can attest below.
+
+
+![lighthouse devtools](/assets/image/Screenshot%202024-05-17%20at%2022.00.40.png)
 
 ### Unfixed Bugs
  
