@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0 2px;
     min-height: 100px;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* section for logo and nav */
@@ -37,9 +38,8 @@ body {
 
 #logo {
     min-height: 40%;
-    width: 100vw;
+    width: 100%;
     padding-top: 20px;
-    padding-top: 10px;
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
@@ -53,6 +53,7 @@ body {
     background-color: #3a3a3a;
     display: flex;
     justify-content: space-between;
+    max-width: 100%; /* Prevent overflow */
 }
 
 /* main */
@@ -62,6 +63,7 @@ body {
     height: 300px;
     width: 100%;
     position: relative;
+    overflow: hidden; /* Ensure no overflow */
 }
 
 #two-playing {
@@ -72,20 +74,22 @@ body {
     padding-top: 215px;
     padding-left: 0px;
     width: 70%;
+    overflow-x: hidden; /* Prevent overflow */
 }
 
 #two-playing * {
     background-color: rgba(234, 194, 15, 0.7);
+    max-width: 100%; /* Prevent overflow */
 }
 
 #reason {
     font-weight: normal;
     height: 100dvh;
-    /*flex: 1 0 auto;*/
     display: contents;
     font-size: 1em;
     padding-left: 15px;
     margin-bottom: 30px;
+    max-width: 100%; /* Prevent overflow */
 
 }
 
@@ -112,12 +116,12 @@ body {
 #a-text * {
     padding-top: 15px;
     padding-left: 15px;
+    max-width: 100%;
 }
 
 #activity {
     color: #3a3a3a;
     padding-bottom: 10px;
-
     font-size: 150%;
     position: relative;
     padding-top: 175px;
@@ -136,16 +140,17 @@ body {
 .table {
     margin-bottom: 30px;
     margin-top: 40px;
-    width: 70%;
+    width: 100%;
     font-size: 1em;
     text-align: center;
     justify-content: center;
     flex-grow: 1;
+    max-width: 100%;
 }
 
 #head {
     background-color: rgb(0, 180, 0);
-    width: 70px;
+    
 }
 
 #data {
@@ -162,27 +167,27 @@ body {
 /* signup form  */
 #signup-page {
     margin-top: 95px;
+    padding: 0 10px; /* Add padding to prevent overflow */
 }
 
 #signup {
     background: url(../image/pexels-felixmittermeier-957312-_1_.webp) no-repeat top center/cover;
-    background-size: cover;
     max-height: fit-content;
     margin-bottom: 50px;
     display: flex;
     color: rgb(2, 189, 2);
     justify-content: center;
+    max-width: 100%;
+    padding: 0 10px;
 }
 
-.signup-menu {
-    justify-content: space-between;
-}
 
 #form-signup {
     margin-bottom: 130px;
     margin-top: 40px;
     padding: 30px;
     background-color: rgba(234, 194, 15, 0.1);
+    max-width: 100%;
 }
 
 .check {
@@ -262,7 +267,7 @@ footer {
     }
 
     #two-playing * {
-        width: 200%;
+        width: 100%;
         text-align: center;
 
         font-size: 180%;
