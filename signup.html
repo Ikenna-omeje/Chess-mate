@@ -15,13 +15,11 @@
             <h1 id="logo">Chess-mate club</h1>
         </a>        
             <nav>
-                <ul class="signup-menu">
-                    <ul class="menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="activity.html">Activity</a></li>
-                        <li><a href="signup.html" class="active">Signup</a></li>
-                    </ul>
-                </ul>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="activity.html">Activity</a></li>
+                    <li><a href="signup.html" class="active">Signup</a></li>
+                </ul> 
             </nav>
         </section>   
         <!--signup form-->         
@@ -31,13 +29,13 @@
             <form id="form-signup" method="POST" action="https://formdump.codeinstitute.net">            
                 <h3>Please sign-up here</h3>
                 <label for="username">Username</label>
-                <input type="text" name="user_name" id="username" class="check" autocomplete="family-name" required>
+                <input type="text" name="user_name" id="username" class="check" autocomplete="username" required>
                 <br>
                 <label for="password">Password</label>
-                <input type="text" name="Pass_word" id="password" class="check" autocomplete="off" required>
+                <input type="password" name="Pass_word" id="password" class="check" autocomplete="off" required>
                 <br>
                 <label for="email">Email Address</label>
-                <input type="email" name="email_address" id="email" class="check" autocomplete="off" required check>
+                <input type="email" name="email_address" id="email" class="check" autocomplete="off" required>
                 <br>
                 <button type="submit" class="button">Submit</button>
             </form>                
