@@ -3,7 +3,7 @@
 chess-made club website is a page designed to invite lovers of chess both young and old, learners and beginners as well as advanced players to the benefits of playing chess as a communion
 vistors of this page would be educated to the benefits of communual chess playing and directed to a venue and time for engagement.
 
-![chess-mate](/assets/image/Screenshot%202024-05-17%20at%2015.40.28.png)
+![chess-mate](/assets/image/mockup_screenshots.png)
 
 
 
@@ -27,7 +27,7 @@ The font-color is designed to contrast with the background of the page for easy 
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 
-![navigation](/assets/image/Screenshot%202024-05-16%20at%2009.03.38.png)
+![navigation](/assets/image/navigation%20bar.png)
 
 
 
@@ -37,7 +37,7 @@ The font-color is designed to contrast with the background of the page for easy 
   - The landing page image invites the user into the world of chess, embrasing them in the aura of chess.
   - This section introduces the user to chess-mate with an eye catching caption to grab their attention
 
-![landing_page](/assets/image/Screenshot%202024-05-17%20at%2012.39.24.png)
+![landing_page](/assets/image/landing_page.png)
 
 
 - __why chess-mate Section__
@@ -45,14 +45,14 @@ The font-color is designed to contrast with the background of the page for easy 
   - The why chess-mate section allows the user see the benefits of joining the chess-mate meetups, as well as the offering the leisure and joy  of playing chess. 
   - This user will see the value and benefits of signing up to chess-mate. 
 
-![why_chess-mate](/assets/image/Screenshot%202024-05-18%20at%2012.05.27.png)
+![why_chess-mate](/assets/image/why_chess-mate_Screenshot_.png)
 
 - __Table section__
 
   - This section will allow the user to see exactly when the club is open for different categories of players. The schedule is visually simplified by a table that contain days and times for different levels.
   - This section will be updated from time to time to accomodate circumstances and keep the user up to date. 
 
-![Table](/assets/image/Screenshot%202024-05-17%20at%2012.53.09.png)
+![Table](/assets/image/Table_section_screenshot.png)
 
 - __The Footer/contact section__ 
 
@@ -60,7 +60,7 @@ The font-color is designed to contrast with the background of the page for easy 
   - The contact section equally includes links (icons) to our social media pages X formally Twitter, Instagram and Youtube media pages.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](/assets/image/Screenshot%202024-05-17%20at%2012.55.55.png)
+![Footer](/assets/image/Screenshot_Footer.png)
 
 
 - __Activity Page__
@@ -68,7 +68,7 @@ The font-color is designed to contrast with the background of the page for easy 
   - This page will allow the user to get signed up to chess-mate club to start or continue playing chess with a comuinity of shared interest.
   - The activity section invites prospective members to the schedule of the club and an oppurtunity to sign up through a form with a username, password and an email address.
 
-![Sign Up](/assets/image/Screenshot%202024-05-17%20at%2013.30.19.png)
+![Sign Up](/assets/image/sign-up_screenshot.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -99,17 +99,17 @@ In addition, you may also use this section to discuss plans for additional featu
 - HTML
   - No errors were returned when passing through the official [W3C validator]
   index.html_home
-  ![index.html](/assets/image/Screenshot%202024-05-17%20at%2013.50.58.png)
+  ![index.html](/assets/image/W3C_Screenshot_of_index.html.png)
  - activity.html_activity
-  ![activity.html](/assets/image/Screenshot%202024-05-17%20at%2014.02.14.png)
+  ![activity.html](/assets/image/W3C_Screenshot_of_Activity.html.png)
  - signup.html_signup
- ![signup](/assets/image/Screenshot%202024-05-17%20at%2014.25.39.png)
+ ![signup](/assets/image/WSC_Screenshot_of_sign-up.html.png)
 
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator]
   - Style.css
-  ![style.css](/assets/image/Screenshot%202024-05-17%20at%2015.12.07.png)
+  ![style.css](/assets/image/Wsc_Css_Screenshot.png)
 - Accesibilty
   - I can confirm that the colors and fonts chosen provide an acceptable contrast to the background making it readable as the lighthouse dev-tool can attest below.
 

@@ -284,9 +284,9 @@ footer {
 
 }
 
-/* large screens labtops and larger (992px and up)*/
+/* large screens laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
-    people {
+    #people {
         column-count: 3;
     }
 }
