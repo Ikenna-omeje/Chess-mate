@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*max-width: 100%;*/
 }
 
 /* general Styles */
@@ -12,8 +13,9 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'oswald', sans-serif;
-    margin: 0;
-    padding: 0 2px;
+    /*color: #2a2a2a;*/
+    margin: 0px;
+    padding: 10 2px;
     min-height: 100px;
     overflow-x: hidden; /* Prevent horizontal overflow */
 }
@@ -31,8 +33,10 @@ body {
     text-align: right;
     text-transform: lowercase;
     letter-spacing: 2px;
-
     box-shadow: 0 2px 2px #3a3a3a;
+    margin-bottom: 20px;
+    padding: 10px;
+    /*background-color: #3a3a3a;*/
 
 }
 
@@ -40,20 +44,21 @@ body {
     min-height: 40%;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
     text-transform: uppercase;
     color: #3a3a3a;
 }
 
 .menu {
-    padding: 10px 15px;
+    padding: 15px;
     gap: 10px;
     list-style-type: none;
     background-color: #3a3a3a;
     display: flex;
     justify-content: space-between;
-    max-width: 100%; /* Prevent overflow */
+    
 }
 
 /* main */
@@ -64,38 +69,31 @@ body {
     width: 100%;
     position: relative;
     overflow: hidden; /* Ensure no overflow */
+    background-color: black;
 }
 
 #two-playing {
-    color: #fafafa;
-    padding-bottom: 20px;
+    color: #3a3a3a;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-left: 15px;
     font-size: 100%;
-    position: relative;
-    padding-top: 215px;
-    padding-left: 0px;
-    width: 70%;
+    width: 40px;
     overflow-x: hidden; /* Prevent overflow */
-}
-
-#two-playing * {
-    background-color: rgba(234, 194, 15, 0.7);
-    max-width: 100%; /* Prevent overflow */
+    background-color: rgba(247, 223, 129, 0.7);
+    margin-top: 150px;
 }
 
 #reason {
     font-weight: normal;
-    height: 100dvh;
-    display: contents;
+    height: 100vh;
     font-size: 1em;
     padding-left: 15px;
     margin-bottom: 30px;
-    max-width: 100%; /* Prevent overflow */
+    
 
 }
 
-#benefits>h3 {
-    font-weight: lighter;
-}
 
 /* fixing activity page */
 .activity-page {
@@ -105,7 +103,6 @@ body {
 
 #act {
     background: url(../image/pexels-anastasia-shuraeva-8466022.jpg) no-repeat center/cover;
-    background-size: cover;
     height: 400px;
     width: 100%;
     position: relative;
@@ -113,39 +110,30 @@ body {
     padding-top: 45px;
 }
 
-#a-text * {
-    padding-top: 15px;
-    padding-left: 15px;
+#a-text {
+    padding: 15px;
     max-width: 100%;
 }
 
 #activity {
-    color: #3a3a3a;
-    padding-bottom: 10px;
+    color: #fafafa; 
     font-size: 150%;
-    position: relative;
-    padding-top: 175px;
-    padding-left: 10px;
+    padding: 20px;
     max-width: 100%;
-    margin-top: 40px;
+    margin: 40px 0 50px;
     text-align: center;
+    background-color: rgba(245, 207, 36, 0.8);
 }
 
-#activity * {
-    background-color: rgba(234, 194, 15, 0.7);
-    margin-bottom: 50px;
-}
 
 /* table style */
 .table {
-    margin-bottom: 30px;
-    margin-top: 40px;
+    margin-top: 40px 0 30px;
     width: 100%;
     font-size: 1em;
     text-align: center;
     justify-content: center;
-    flex-grow: 1;
-    max-width: 100%;
+    
 }
 
 #head {
@@ -157,46 +145,43 @@ body {
     background-color: rgb(2, 216, 2);
 }
 
-/* sign-up page */
+/* sign-up page 
 #activity {
     margin-top: 125px;
     padding-left: 15px;
 
-}
+}*/
 
 /* signup form  */
 #signup-page {
     margin-top: 95px;
-    padding: 0 10px; /* Add padding to prevent overflow */
+    padding: 20px; /* Add padding to prevent overflow */
+    background-color: #f5f5f5;
+
 }
 
 #signup {
     background: url(../image/pexels-felixmittermeier-957312-_1_.webp) no-repeat top center/cover;
-    max-height: fit-content;
+    /*max-height: fit-content;*/
     margin-bottom: 50px;
     display: flex;
     color: rgb(2, 189, 2);
     justify-content: center;
-    max-width: 100%;
+    /*max-width: 100%;*/
     padding: 0 10px;
 }
 
 
 #form-signup {
-    margin-bottom: 130px;
-    margin-top: 40px;
-    padding: 30px;
+    margin-top: 40px 0 130px;
+    padding: 40px;
     background-color: rgba(234, 194, 15, 0.1);
     max-width: 100%;
 }
 
 .check {
-    margin: 5px 0 5px 0;
+    margin: 5px 0 20;
     padding-left: 10px;
-    margin-bottom: 20px;
-    margin: 10px 0 15px;
-    padding-right: 0;
-    width: 100%;
     height: 20px;
 
 
@@ -216,14 +201,12 @@ body {
 footer {
     background-color: #3a3a3a;
     color: #fafafa;
-    margin-top: 0;
 
 }
 
 #contact-text {
     text-align: center;
     padding-top: 20px;
-    font-weight: normal;
     margin-bottom: 20px;
 }
 
@@ -266,18 +249,18 @@ footer {
         flex-grow: 1;
     }
 
-    #two-playing * {
-        width: 100%;
+    #two-playing {
+        width: fit-content;
         text-align: center;
-
         font-size: 180%;
-        padding-right: 50%;
+        padding-right: 10%;
     }
+
+    .menu{justify-content: center;}
 
     #people {
         column-count: 3;
         column-gap: 0;
-        object-fit: contain;
         display: flex;
 
     }
@@ -287,6 +270,6 @@ footer {
 /* large screens laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
     #people {
-        column-count: 3;
+        column-gap: 20px;
     }
 }
