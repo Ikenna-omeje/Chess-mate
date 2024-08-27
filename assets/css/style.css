@@ -64,7 +64,6 @@ body {
     background: url(../image/pexels-syed-hasan-mehdi-270838-839428.jpg) no-repeat center/cover;
     height: 300px;
     width: 100%;
-    /*position: relative;*/
     overflow: hidden; /* Ensure no overflow */
     
 }

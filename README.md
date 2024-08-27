@@ -45,7 +45,7 @@ The font-color is designed to contrast with the background of the page for easy 
   - The why chess-mate section allows the user see the benefits of joining the chess-mate meetups, as well as the offering the leisure and joy  of playing chess. 
   - This user will see the value and benefits of signing up to chess-mate. 
 
-![why_chess-mate](/assets/image/why_chess-mate_Screenshot_.png)
+![why_chess-mate](/assets/image/Screenshot_why_chess-mate.png)
 
 - __Table section__
 
