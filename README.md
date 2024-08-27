@@ -3,7 +3,7 @@
 chess-made club website is a page designed to invite lovers of chess both young and old, learners and beginners as well as advanced players to the benefits of playing chess as a communion
 vistors of this page would be educated to the benefits of communual chess playing and directed to a venue and time for engagement.
 
-![chess-mate](/assets/image/mockup_screenshots.png)
+![chess-mate](/assets/image/mock_up_Screenshot.png)
 
 
 
@@ -37,7 +37,7 @@ The font-color is designed to contrast with the background of the page for easy 
   - The landing page image invites the user into the world of chess, embrasing them in the aura of chess.
   - This section introduces the user to chess-mate with an eye catching caption to grab their attention
 
-![landing_page](/assets/image/landing_page.png)
+![landing_page](/assets/image/landing_page_screenshot.png)
 
 
 - __why chess-mate Section__
@@ -114,7 +114,7 @@ In addition, you may also use this section to discuss plans for additional featu
   - I can confirm that the colors and fonts chosen provide an acceptable contrast to the background making it readable as the lighthouse dev-tool can attest below.
 
 
-![lighthouse devtools](/assets/image/Screenshot%202024-05-17%20at%2022.00.40.png)
+![lighthouse devtools](/assets/image/lighthouse_dev_Screenshot.png)
 
 ### Unfixed Bugs
  
